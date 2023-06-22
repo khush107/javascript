@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Filter of an array</title>
+    <script>
+        var ages = [13,23,45,65];
+        document.write(ages + "<br>");
+        var b = ages.filter(adultAges);
+        document.write(b + "<br>");
+
+        function adultAges(ages){
+            return ages>=44;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
