@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object part 1</title>
+    <script>
+        var a = {
+            fname : 'khush',
+            lname : 'kumar',
+            age : 23,
+            email : 'khushrohit001@gmail.com',
+        favMovies : ['khush', 'rahul', 'nimish', 'happy'],
+         salary : function() {
+                return 25000;
+            },
+        fullname : function() {
+            return this.fname + " " + this.lname;
+        },
+        living : {
+            'city': 'jalandhar',
+            'country': 'india'
+        }
+        }
+        document.write(a.salary());
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
